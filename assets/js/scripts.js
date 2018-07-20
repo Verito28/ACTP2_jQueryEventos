@@ -1,3 +1,10 @@
-$(function() {
-  // Handler for .ready() called.
+$(document).ready(function(){
+
+
+    $(".card").click(function(){
+        $(".card--open").toggle();
+    });
+
+
+
 });
