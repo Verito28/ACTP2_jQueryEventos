@@ -10,6 +10,12 @@ $(document).ready(function(){
         $(".card__like--red").toggle();
     });
 
+      $(".card__follow-btn").click(function(event){
+      	event.stopPropagation();
+      	
+        $(this).toggleClass('card__follow-btn--following');
+    });
+
 
 
 
