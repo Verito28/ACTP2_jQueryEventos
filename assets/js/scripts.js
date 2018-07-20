@@ -19,12 +19,18 @@ $(document).ready(function(){
     });
 
 
-        $(".create__select").change(function(event){
+      $("#image").change(function(event){
         
         $(".create__image img").attr("src","assets/images/squared/" + $(this).val());
       	
       
-        event.stopPropagation();
+    });
+
+       $("#author").change(function(event){
+        
+        $(".create__profile img").attr("src","assets/images/profiles/" + $(this).val());
+          
+       
     });
 
 
